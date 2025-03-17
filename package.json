@@ -20,6 +20,11 @@
     "lint:lint-staged": "lint-staged",
     "cz": "git-cz"
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-vinyl"
+    }
+  },
   "dependencies": {
     "commitizen": "^4.3.1",
     "cz-vinyl": "^2.5.4",
