@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-unused-expressions */
 // 插件配置 总入口
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 
-import { px2remPlugin } from './px2rem'
+// import { px2remPlugin } from './px2rem'
 import { svgLoaderPlugin } from './svgLoader'
 import { UnoCSSPlugin } from './UnoCSS'
 import { visualizerPlugin } from './visualizer'

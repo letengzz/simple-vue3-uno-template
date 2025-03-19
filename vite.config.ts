@@ -1,4 +1,3 @@
-/* eslint-disable node/prefer-global/process */
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig, loadEnv } from 'vite'
 

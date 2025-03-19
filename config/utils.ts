@@ -1,4 +1,4 @@
-/* eslint-disable node/prefer-global/process */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // Read all environment variable configuration files to process.env
 export function wrapperEnv(envConf: any) {
   const ret: any = {}
